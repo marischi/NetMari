@@ -28,6 +28,7 @@
     <!-- Header -->
     <header class="header">
       <div class="container">
+        <div class="overlay" data-overlay></div>
         <a href="index.html" class="logo">
           <img src="assets/img/project-logo.png" alt="NetMari" />
         </a>
@@ -47,21 +48,21 @@
               <option value="es">ES</option>
             </select>
           </div>
+
+          <button class="btn btn-primary">Entrar</button>
         </div>
 
-        <button class="btn btn-primary">Entrar</button>
-
-        <button class="btn-mobile">
+        <button class="btn-mobile" data-menu-open>
           <ion-icon name="reorder-three-outline"></ion-icon>
         </button>
 
-        <nav class="navbar">
+        <nav class="navbar" data-navbar>
           <div class="navbar-top">
             <a href="index.html">
               <img src="assets/img/project-logo.png" alt="logo" />
             </a>
 
-            <button class="menu-close">
+            <button class="menu-close" data-menu-close>
               <ion-icon name="close-outline"></ion-icon>
             </button>
           </div>
